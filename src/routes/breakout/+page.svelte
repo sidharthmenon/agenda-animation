@@ -12,7 +12,7 @@
   let date = '';
   let time = '';
   let item = "0";
-  let event = "wss-2023"
+  let event = "huddle-global-2023"
 
   let content;
   let box;
