@@ -8,7 +8,7 @@
 
 {#if selected}
   <div class="content" id="content" bind:this={content}>
-    <div class="category">{selected.category}</div>
+    <div class="category">{selected.category ?? ""}</div>
     <div class="title">{selected.name}</div>
     {#if selected.speakers}
       <div class="speakers {selected_count > 6 ? "extended" : ""}">
